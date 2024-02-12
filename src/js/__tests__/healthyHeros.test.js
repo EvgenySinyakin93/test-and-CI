@@ -1,4 +1,4 @@
-import { healthyHeros } from '../src/healthyHeros.js';
+import { healthyHeros } from '../healthyHeros';
 
 test('healthy', () => {
     const stufe = {
