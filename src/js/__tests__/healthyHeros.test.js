@@ -1,9 +1,9 @@
-import { healthyHeros } from '../healthyHeros';
+import healthyHeros from '../healthyHeros';
 
-test('healthy', () => {
+test("healthy", () => {
     const stufe = {
         name: "Маг", 
-        health: 90
+        healthy: 90
     }
     const result = healthyHeros(stufe);
     expect(result).toBe("healthy");
@@ -12,7 +12,7 @@ test('healthy', () => {
 test("wounded", () => {
     const stufe = {
         name: "Маг", 
-        health: 40
+        healthy: 40
     }
     const result = healthyHeros(stufe);
     expect(result).toBe("wounded");
@@ -21,7 +21,7 @@ test("wounded", () => {
 test("critical", () => {
     const stufe = {
         name: "Маг", 
-        health: 5
+        healthy: 5
     }
     const result = healthyHeros(stufe);
     expect(result).toBe("critical");
